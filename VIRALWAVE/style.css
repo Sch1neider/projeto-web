@@ -1,0 +1,161 @@
+/* Header */
+
+.navegador-area h1{ 
+
+    font-size: 60px;
+    display: grid;
+grid-template-columns: 3,1fr;
+    justify-content: center;
+    margin-bottom: -40px;
+    position: relative;
+    bottom: 20px;
+    color: rgb(255, 253, 253);
+}
+
+.container-principal{
+    background-color: #3F5FA8;
+  padding: 30px;
+  margin-bottom: 1px;
+}
+
+.navegador-area nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegador-area nav ul{
+    display: flex;
+    gap: 20px; /* espaço entre os links */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegador-area a{
+    right: 100px;
+    top: 140px;
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    
+}
+
+
+.quadrado-branco{
+    background-color: rgb(255, 255, 255);
+     position: relative;
+    right: 100px;
+    top: 140px;
+    border-radius: 5px;
+    
+}
+
+
+    .area-logo{
+    display: flex;
+    flex-direction: column; /* coloca um em cima do outro */
+    align-items: center; /* centraliza horizontalmente */
+    justify-items: center;
+     margin: 0 auto; /* joga para o meio */
+     position: relative;
+     left: 200px;
+    
+}
+
+
+.area-logo img{
+    width: 200px;
+    
+
+}
+.area-logo h2{
+font-size: 20px;
+position: relative;
+bottom: 20px;
+}
+
+/* Main */
+.container-p1{
+          background-image: url(/VIRALWAVE/projeto-web/VIRALWAVE/images/city.jpg);
+           background-size: cover;      /* faz a imagem ficar grande */
+    background-position: center; /* centraliza a imagem */
+    background-repeat: no-repeat; /* impede repetir quadradinhos */
+    padding: 80px;
+    padding: 100px;
+}
+.container-p2{
+    background-color: rgb(241, 235, 235);
+    padding: 150px;
+    border-radius: 30px;
+}
+
+.artigo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.artigo1 h1{
+    margin: 0 auto;
+    position: relative;
+    bottom: 40px;
+    color: rgb(172, 172, 172);
+}
+.artigo2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas iguais */
+    gap: 20px; /* espaço entre os itens */
+}
+
+.artigo2 div {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.artigo2 img {
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+ 
+}
+
+.artigo2 p{
+    font-size: 23px;
+}
+.quadrado1{
+    padding: 50px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 30px;
+}
+.codr{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.artigo2 img:hover {
+     transform: scale(1.08); /* leve zoom */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3); /* sombra suave */
+}
+
+.quadrado2 ul{
+    font-size: 20px;
+    font-style: bold;
+    
+}
+/* Footer */
+
+.footer1{
+ display: flex;
+ justify-content: space-around;
+    background-color: #3F5FA8;
+  padding: 30px;
+  margin-bottom: 1px;
+
+}
+
+#email-a{
+    position: relative;
+    right: 260px;
+}
