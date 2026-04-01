@@ -74,7 +74,7 @@ position: relative;
 bottom: 20px;
 }
 
-/* Main */
+/* Main index */
 .container-p1{
           background-image: url(/VIRALWAVE/projeto-web/VIRALWAVE/images/city.jpg);
            background-size: cover;      /* faz a imagem ficar grande */
@@ -144,6 +144,183 @@ bottom: 20px;
     font-style: bold;
     
 }
+
+/* Main contato */
+.formulario {
+    max-width: 50%; /* Ajuste a largura total conforme sua necessidade */
+    margin: 30px;
+    padding: 100px;
+    background-color: rgb(204, 195, 195);
+    border-radius: 50px;
+    position: relative;
+    left: 450px;
+    bottom: 100px;
+    border: 1px solid #242323;
+}
+
+
+.campo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px; /* Espaço entre a Label e o Input */
+    margin: 30px;
+
+}
+
+.campo label {
+    font-weight: bold;
+    min-width: 60px; /* Garante que as labels tenham o mesmo espaço */
+}
+
+.formulario input {
+    /* flex: 1; Input ocupar no espaço livre */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100% 
+}
+
+/* Centralizar o título e o form */
+.form1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #ebe8e8;
+    
+
+}
+
+#titulo {
+   position: relative;
+   left: 840px;
+   margin-bottom: 100px;
+   
+}
+
+#texto{
+    position: relative;
+    margin-top: 100px;
+    width: 5000px;
+    height: 400px;
+}
+#mensagem{
+    position: relative;
+    right: 10px;
+    bottom: 200px;
+    left: 300px;
+}
+
+/* main nossonegocio */
+
+.container-titulo h1{
+    position: relative;
+    bottom: 80px;
+    left: 1000px;
+    white-space: nowrap;
+    
+    
+}
+.container-negocio{
+      display: flex;
+    flex-direction: row;
+    padding: 90px;
+    justify-content: center;
+    
+    
+    background-color: #ebe8e8;
+}
+.quadradoimagem{
+    background-color: white;
+    padding: 200px;
+   margin: 30px;
+    border-radius: 30px;
+    position: relative;
+    right: 300px;
+    width: 100%; 
+  
+}
+
+.quadradoimagem img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 90px;
+    bottom: 100px;
+    border-radius: 10px;
+}
+.texto-quadrado{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    right: 100px;
+    
+    
+}
+.texto-quadrado h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.texto-quadrado p{
+width: 100%; 
+  max-width: 300px
+
+}
+
+/* Main do portfolio */
+.tabela-container {
+            font-family: sans-serif;
+            width: 100%;
+            max-width: 900px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            border-radius: 12px; /* Bordas arredondadas da tabela */
+            overflow: hidden;    /* Garante que o fundo não saia da borda */
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Cabeçalho cinza claro */
+        thead {
+            background-color: #f2f2f2;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border: 0.5px solid #ccc; /* Linhas finas da tabela */
+        }
+
+        th {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        /* Estilo para as descrições em cinza (simulando os traços da imagem) */
+        .placeholder-text {
+            display: block;
+            height: 10px;
+            background-color: #bbb;
+            margin-top: 8px;
+            border-radius: 4px;
+            width: 90%;
+        }
+        
+        .placeholder-text.curto { width: 40%; }
+        .placeholder-text.medio { width: 70%; }
+
+        .titulo1{
+            font-size: 300px;
+            position: relative;
+            left: 800px;
+        }
 /* Footer */
 
 .footer1{
